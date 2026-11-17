@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 1700" width="2200" height="1700" font-family="Helvetica, Arial, sans-serif">
+<rect width="2200" height="1700" fill="#ffffff"/>
+<text x="60" y="64" font-size="30" font-weight="700" fill="#101a2c">FCIS: Entity-Relationship Diagram</text>
+<text x="60" y="96" font-size="17" fill="#4b5563">Financial Commitment Intelligence System, PostgreSQL schema fcis (Chen notation)</text>
+<line x1="1100" y1="215" x2="1265" y2="326" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="215" x2="951" y2="128" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="215" x2="1265" y2="104" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="215" x2="2063" y2="282" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="215" x2="1892" y2="342" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="215" x2="1614" y2="231" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="215" x2="1711" y2="122" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="215" x2="1891" y2="63" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="215" x2="2027" y2="154" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="640" x2="460" y2="786" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="640" x2="190" y2="666" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="640" x2="105" y2="606" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="640" x2="220" y2="574" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="640" x2="248" y2="492" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="640" x2="356" y2="533" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="640" x2="467" y2="497" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="640" x2="487" y2="580" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="640" x2="1317" y2="721" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="640" x2="1215" y2="717" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="640" x2="1217" y2="783" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="640" x2="1018" y2="733" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="640" x2="920" y2="753" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="640" x2="954" y2="690" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="640" x2="883" y2="559" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="640" x2="985" y2="563" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="640" x2="983" y2="497" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="640" x2="1182" y2="547" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="640" x2="2088" y2="690" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="640" x2="1937" y2="731" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="640" x2="1658" y2="744" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="640" x2="1727" y2="568" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="640" x2="1807" y2="480" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="640" x2="1932" y2="547" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="640" x2="2085" y2="585" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="1065" x2="547" y2="1151" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="1065" x2="444" y2="1179" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="1065" x2="197" y2="1183" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="1065" x2="221" y2="966" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="1065" x2="469" y2="932" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="1065" x2="516" y2="993" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1065" x2="1287" y2="1160" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1065" x2="1162" y2="1188" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1065" x2="1035" y2="1213" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1065" x2="930" y2="996" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1065" x2="1003" y2="924" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1065" x2="1258" y2="985" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="1065" x2="2070" y2="1123" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="1065" x2="1931" y2="1183" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="1065" x2="1769" y2="1210" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="1065" x2="1670" y2="1122" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="1065" x2="1939" y2="922" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1850" y1="1065" x2="2033" y2="1012" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="1470" x2="590" y2="1515" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="1470" x2="456" y2="1552" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="1470" x2="367" y2="1632" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="1470" x2="268" y2="1563" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="1470" x2="125" y2="1541" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="1470" x2="188" y2="1451" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="350" y1="1470" x2="475" y2="1330" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1470" x2="1332" y2="1531" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1470" x2="1167" y2="1568" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1470" x2="1006" y2="1620" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1470" x2="949" y2="1513" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1470" x2="868" y2="1409" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1470" x2="1033" y2="1372" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1470" x2="1194" y2="1320" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="1470" x2="1251" y2="1427" stroke="#9aa3b2" stroke-width="1.2"/>
+<line x1="1100" y1="244" x2="1100" y2="390" stroke="#101a2c" stroke-width="2"/>
+<line x1="1100" y1="611" x2="1100" y2="466" stroke="#101a2c" stroke-width="2"/>
+<line x1="1799" y1="244" x2="1510" y2="407" stroke="#101a2c" stroke-width="2"/>
+<line x1="1151" y1="611" x2="1440" y2="448" stroke="#101a2c" stroke-width="2"/>
+<line x1="455" y1="640" x2="650" y2="640" stroke="#101a2c" stroke-width="2"/>
+<line x1="995" y1="640" x2="800" y2="640" stroke="#101a2c" stroke-width="2"/>
+<line x1="1205" y1="640" x2="1400" y2="640" stroke="#101a2c" stroke-width="2"/>
+<line x1="1745" y1="640" x2="1550" y2="640" stroke="#101a2c" stroke-width="2"/>
+<line x1="1850" y1="669" x2="1850" y2="814" stroke="#101a2c" stroke-width="2"/>
+<line x1="1850" y1="1036" x2="1850" y2="890" stroke="#101a2c" stroke-width="2"/>
+<line x1="1100" y1="1036" x2="1100" y2="890" stroke="#101a2c" stroke-width="2"/>
+<line x1="1100" y1="669" x2="1100" y2="814" stroke="#101a2c" stroke-width="2"/>
+<line x1="1205" y1="1065" x2="1400" y2="1065" stroke="#101a2c" stroke-width="2"/>
+<line x1="1745" y1="1065" x2="1550" y2="1065" stroke="#101a2c" stroke-width="2"/>
+<line x1="995" y1="1065" x2="800" y2="1065" stroke="#101a2c" stroke-width="2"/>
+<line x1="455" y1="1065" x2="650" y2="1065" stroke="#101a2c" stroke-width="2"/>
+<line x1="350" y1="669" x2="350" y2="814" stroke="#101a2c" stroke-width="2"/>
+<line x1="350" y1="1036" x2="350" y2="890" stroke="#101a2c" stroke-width="2"/>
+<line x1="350" y1="1094" x2="350" y2="1230" stroke="#101a2c" stroke-width="2"/>
+<line x1="350" y1="1441" x2="350" y2="1306" stroke="#101a2c" stroke-width="2"/>
+<line x1="1046" y1="1094" x2="761" y2="1248" stroke="#101a2c" stroke-width="2"/>
+<line x1="404" y1="1441" x2="689" y2="1287" stroke="#101a2c" stroke-width="2"/>
+<line x1="401" y1="669" x2="690" y2="832" stroke="#101a2c" stroke-width="2"/>
+<line x1="1745" y1="1045" x2="780" y2="862" stroke="#101a2c" stroke-width="2"/>
+<line x1="331" y1="669" x2="96" y2="1036" stroke="#101a2c" stroke-width="2"/>
+<line x1="331" y1="1441" x2="97" y2="1093" stroke="#101a2c" stroke-width="2"/>
+<line x1="995" y1="207" x2="836" y2="120" stroke="#101a2c" stroke-width="2"/>
+<line x1="1060" y1="186" x2="845" y2="115" stroke="#101a2c" stroke-width="2"/>
+<ellipse cx="1265" cy="326" rx="67" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1265" y="331" font-size="14" text-anchor="middle" fill="#111827" text-decoration="underline" font-weight="700">category_id</text>
+<ellipse cx="951" cy="128" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="951" y="133" font-size="14" text-anchor="middle" fill="#111827">name</text>
+<ellipse cx="1265" cy="104" rx="57" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1265" y="109" font-size="14" text-anchor="middle" fill="#111827">direction</text>
+<ellipse cx="2063" cy="282" rx="85" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="2063" y="287" font-size="14" text-anchor="middle" fill="#111827" text-decoration="underline" font-weight="700">counterparty_id</text>
+<ellipse cx="1892" cy="342" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1892" y="347" font-size="14" text-anchor="middle" fill="#111827">name</text>
+<ellipse cx="1614" cy="231" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1614" y="236" font-size="14" text-anchor="middle" fill="#111827">kind</text>
+<ellipse cx="1711" cy="122" rx="76" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1711" y="127" font-size="14" text-anchor="middle" fill="#111827">contact_email</text>
+<ellipse cx="1891" cy="63" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1891" y="68" font-size="14" text-anchor="middle" fill="#111827">phone</text>
+<ellipse cx="2027" cy="154" rx="94" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="2027" y="159" font-size="14" text-anchor="middle" fill="#111827">reliability_score</text>
+<ellipse cx="460" cy="786" rx="62" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="460" y="791" font-size="14" text-anchor="middle" fill="#111827" text-decoration="underline" font-weight="700">account_id</text>
+<ellipse cx="190" cy="666" rx="71" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="190" y="671" font-size="14" text-anchor="middle" fill="#111827">account_name</text>
+<ellipse cx="105" cy="606" rx="57" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="105" y="611" font-size="14" text-anchor="middle" fill="#111827">bank_name</text>
+<ellipse cx="220" cy="574" rx="71" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="220" y="579" font-size="14" text-anchor="middle" fill="#111827">account_type</text>
+<ellipse cx="248" cy="492" rx="85" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="248" y="497" font-size="14" text-anchor="middle" fill="#111827">current_balance</text>
+<ellipse cx="356" cy="533" rx="62" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="356" y="538" font-size="14" text-anchor="middle" fill="#111827">min_buffer</text>
+<ellipse cx="467" cy="497" rx="85" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="467" y="502" font-size="14" text-anchor="middle" fill="#111827">overdraft_limit</text>
+<ellipse cx="487" cy="580" rx="57" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="487" y="585" font-size="14" text-anchor="middle" fill="#111827">is_active</text>
+<ellipse cx="1317" cy="721" rx="76" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1317" y="726" font-size="14" text-anchor="middle" fill="#111827" text-decoration="underline" font-weight="700">commitment_id</text>
+<ellipse cx="1215" cy="717" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1215" y="722" font-size="14" text-anchor="middle" fill="#111827">title</text>
+<ellipse cx="1217" cy="783" rx="57" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1217" y="788" font-size="14" text-anchor="middle" fill="#111827">direction</text>
+<ellipse cx="1018" cy="733" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1018" y="738" font-size="14" text-anchor="middle" fill="#111827">amount</text>
+<ellipse cx="920" cy="753" rx="57" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="920" y="758" font-size="14" text-anchor="middle" fill="#111827">frequency</text>
+<ellipse cx="954" cy="690" rx="62" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="954" y="695" font-size="14" text-anchor="middle" fill="#111827">start_date</text>
+<ellipse cx="883" cy="559" rx="53" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="883" y="564" font-size="14" text-anchor="middle" fill="#111827">end_date</text>
+<ellipse cx="985" cy="563" rx="53" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="985" y="568" font-size="14" text-anchor="middle" fill="#111827">priority</text>
+<ellipse cx="983" cy="497" rx="67" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="983" y="502" font-size="14" text-anchor="middle" fill="#111827">is_flexible</text>
+<ellipse cx="1182" cy="547" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1182" y="552" font-size="14" text-anchor="middle" fill="#111827">status</text>
+<ellipse cx="2088" cy="690" rx="67" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="2088" y="695" font-size="14" text-anchor="middle" fill="#111827" text-decoration="underline" font-weight="700">schedule_id</text>
+<ellipse cx="1937" cy="731" rx="53" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1937" y="736" font-size="14" text-anchor="middle" fill="#111827">due_date</text>
+<ellipse cx="1658" cy="744" rx="94" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1658" y="749" font-size="14" text-anchor="middle" fill="#111827">original_due_date</text>
+<ellipse cx="1727" cy="568" rx="62" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1727" y="573" font-size="14" text-anchor="middle" fill="#111827">amount_due</text>
+<ellipse cx="1807" cy="480" rx="67" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1807" y="485" font-size="14" text-anchor="middle" fill="#111827">amount_paid</text>
+<ellipse cx="1932" cy="547" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1932" y="552" font-size="14" text-anchor="middle" fill="#111827">status</text>
+<ellipse cx="2085" cy="585" rx="48" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="2085" y="590" font-size="14" text-anchor="middle" fill="#111827">paid_on</text>
+<ellipse cx="547" cy="1151" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="547" y="1156" font-size="14" text-anchor="middle" fill="#111827" text-decoration="underline" font-weight="700">run_id</text>
+<ellipse cx="444" cy="1179" rx="53" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="444" y="1184" font-size="14" text-anchor="middle" fill="#111827">batch_id</text>
+<ellipse cx="197" cy="1183" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="197" y="1188" font-size="14" text-anchor="middle" fill="#111827">run_at</text>
+<ellipse cx="221" cy="966" rx="71" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="221" y="971" font-size="14" text-anchor="middle" fill="#111827">horizon_days</text>
+<ellipse cx="469" cy="932" rx="113" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="469" y="937" font-size="14" text-anchor="middle" fill="#111827">min_projected_balance</text>
+<ellipse cx="516" cy="993" rx="80" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="516" y="998" font-size="14" text-anchor="middle" fill="#111827">shortfall_days</text>
+<ellipse cx="1287" cy="1160" rx="48" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1287" y="1165" font-size="14" text-anchor="middle" fill="#111827" text-decoration="underline" font-weight="700">user_id</text>
+<ellipse cx="1162" cy="1188" rx="57" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1162" y="1193" font-size="14" text-anchor="middle" fill="#111827">full_name</text>
+<ellipse cx="1035" cy="1213" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1035" y="1218" font-size="14" text-anchor="middle" fill="#111827">email</text>
+<ellipse cx="930" cy="996" rx="76" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="930" y="1001" font-size="14" text-anchor="middle" fill="#111827">password_hash</text>
+<ellipse cx="1003" cy="924" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1003" y="929" font-size="14" text-anchor="middle" fill="#111827">role</text>
+<ellipse cx="1258" cy="985" rx="57" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1258" y="990" font-size="14" text-anchor="middle" fill="#111827">is_active</text>
+<ellipse cx="2070" cy="1123" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="2070" y="1128" font-size="14" text-anchor="middle" fill="#111827" text-decoration="underline" font-weight="700">txn_id</text>
+<ellipse cx="1931" cy="1183" rx="53" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1931" y="1188" font-size="14" text-anchor="middle" fill="#111827">txn_date</text>
+<ellipse cx="1769" cy="1210" rx="57" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1769" y="1215" font-size="14" text-anchor="middle" fill="#111827">direction</text>
+<ellipse cx="1670" cy="1122" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1670" y="1127" font-size="14" text-anchor="middle" fill="#111827">amount</text>
+<ellipse cx="1939" cy="922" rx="57" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1939" y="927" font-size="14" text-anchor="middle" fill="#111827">narration</text>
+<ellipse cx="2033" cy="1012" rx="53" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="2033" y="1017" font-size="14" text-anchor="middle" fill="#111827">txn_kind</text>
+<ellipse cx="590" cy="1515" rx="53" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="590" y="1520" font-size="14" text-anchor="middle" fill="#111827" text-decoration="underline" font-weight="700">alert_id</text>
+<ellipse cx="456" cy="1552" rx="85" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="456" y="1557" font-size="14" text-anchor="middle" fill="#111827">shortfall_start</text>
+<ellipse cx="367" cy="1632" rx="76" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="367" y="1637" font-size="14" text-anchor="middle" fill="#111827">shortfall_end</text>
+<ellipse cx="268" cy="1563" rx="48" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="268" y="1568" font-size="14" text-anchor="middle" fill="#111827">deficit</text>
+<ellipse cx="125" cy="1541" rx="53" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="125" y="1546" font-size="14" text-anchor="middle" fill="#111827">severity</text>
+<ellipse cx="188" cy="1451" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="188" y="1456" font-size="14" text-anchor="middle" fill="#111827">status</text>
+<ellipse cx="475" cy="1330" rx="113" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="475" y="1335" font-size="14" text-anchor="middle" fill="#111827">min_projected_balance</text>
+<ellipse cx="1332" cy="1531" rx="53" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1332" y="1536" font-size="14" text-anchor="middle" fill="#111827" text-decoration="underline" font-weight="700">audit_id</text>
+<ellipse cx="1167" cy="1568" rx="62" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1167" y="1573" font-size="14" text-anchor="middle" fill="#111827">table_name</text>
+<ellipse cx="1006" cy="1620" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1006" y="1625" font-size="14" text-anchor="middle" fill="#111827">action</text>
+<ellipse cx="949" cy="1513" rx="46" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="949" y="1518" font-size="14" text-anchor="middle" fill="#111827">row_pk</text>
+<ellipse cx="868" cy="1409" rx="62" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="868" y="1414" font-size="14" text-anchor="middle" fill="#111827">changed_by</text>
+<ellipse cx="1033" cy="1372" rx="62" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1033" y="1377" font-size="14" text-anchor="middle" fill="#111827">changed_at</text>
+<ellipse cx="1194" cy="1320" rx="53" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1194" y="1325" font-size="14" text-anchor="middle" fill="#111827">old_data</text>
+<ellipse cx="1251" cy="1427" rx="53" ry="17" fill="#ffffff" stroke="#6b7280" stroke-width="1.3"/>
+<text x="1251" y="1432" font-size="14" text-anchor="middle" fill="#111827">new_data</text>
+<polygon points="1100.0,389.5 1175.0,427.5 1100.0,465.5 1025.0,427.5" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="1100.0" y="432.5" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">classifies</text>
+<polygon points="1475.0,389.5 1550.0,427.5 1475.0,465.5 1400.0,427.5" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="1475.0" y="432.5" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">party to</text>
+<polygon points="725.0,602.0 800.0,640.0 725.0,678.0 650.0,640.0" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="725.0" y="645.0" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">funds</text>
+<polygon points="1475.0,602.0 1550.0,640.0 1475.0,678.0 1400.0,640.0" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="1475.0" y="645.0" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">expands into</text>
+<polygon points="1850.0,814.5 1925.0,852.5 1850.0,890.5 1775.0,852.5" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="1850.0" y="857.5" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">settled by</text>
+<polygon points="1100.0,814.5 1175.0,852.5 1100.0,890.5 1025.0,852.5" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="1100.0" y="857.5" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">creates</text>
+<polygon points="1475.0,1027.0 1550.0,1065.0 1475.0,1103.0 1400.0,1065.0" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="1475.0" y="1070.0" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">records</text>
+<polygon points="725.0,1027.0 800.0,1065.0 725.0,1103.0 650.0,1065.0" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="725.0" y="1070.0" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">runs</text>
+<polygon points="350.0,814.5 425.0,852.5 350.0,890.5 275.0,852.5" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="350.0" y="857.5" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">projected in</text>
+<polygon points="350.0,1229.5 425.0,1267.5 350.0,1305.5 275.0,1267.5" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="350.0" y="1272.5" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">raises</text>
+<polygon points="725.0,1229.5 800.0,1267.5 725.0,1305.5 650.0,1267.5" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="725.0" y="1272.5" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">acknowledges</text>
+<polygon points="725,814.0 800.0,852 725,890.0 650.0,852" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="725" y="857" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">holds</text>
+<polygon points="78,1027.0 153.0,1065 78,1103.0 3.0,1065" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="78" y="1070" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">affects</text>
+<polygon points="800,62.0 875.0,100 800,138.0 725.0,100" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="800" y="105" font-size="15" text-anchor="middle" fill="#123f78" font-weight="600">parent of</text>
+<rect x="995.0" y="186.0" width="210" height="58" fill="#101a2c" stroke="#101a2c" stroke-width="2" rx="3"/>
+<text x="1100" y="221" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">CATEGORIES</text>
+<rect x="1745.0" y="186.0" width="210" height="58" fill="#101a2c" stroke="#101a2c" stroke-width="2" rx="3"/>
+<text x="1850" y="221" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">COUNTERPARTIES</text>
+<rect x="245.0" y="611.0" width="210" height="58" fill="#101a2c" stroke="#101a2c" stroke-width="2" rx="3"/>
+<text x="350" y="646" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">BANK_ACCOUNTS</text>
+<rect x="995.0" y="611.0" width="210" height="58" fill="#101a2c" stroke="#101a2c" stroke-width="2" rx="3"/>
+<text x="1100" y="646" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">COMMITMENTS</text>
+<rect x="1745.0" y="611.0" width="210" height="58" fill="#101a2c" stroke="#101a2c" stroke-width="2" rx="3"/>
+<text x="1850" y="646" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">COMMITMENT_SCHEDULE</text>
+<rect x="245.0" y="1036.0" width="210" height="58" fill="#101a2c" stroke="#101a2c" stroke-width="2" rx="3"/>
+<text x="350" y="1071" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">FORECAST_RUNS</text>
+<rect x="995.0" y="1036.0" width="210" height="58" fill="#101a2c" stroke="#101a2c" stroke-width="2" rx="3"/>
+<text x="1100" y="1071" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">USERS</text>
+<rect x="1745.0" y="1036.0" width="210" height="58" fill="#101a2c" stroke="#101a2c" stroke-width="2" rx="3"/>
+<text x="1850" y="1071" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">TRANSACTIONS</text>
+<rect x="245.0" y="1441.0" width="210" height="58" fill="#101a2c" stroke="#101a2c" stroke-width="2" rx="3"/>
+<text x="350" y="1476" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">SHORTFALL_ALERTS</text>
+<rect x="995.0" y="1441.0" width="210" height="58" fill="#101a2c" stroke="#101a2c" stroke-width="2" rx="3"/>
+<text x="1100" y="1476" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">AUDIT_LOG</text>
+<text x="1086" y="285" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="1114" y="580" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<text x="1761" y="255" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="1189" y="610" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<text x="491" y="659" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="959" y="631" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<text x="1241" y="659" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="1709" y="631" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<text x="1836" y="710" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="1864" y="1005" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<text x="1114" y="1005" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="1086" y="710" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<text x="1241" y="1084" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="1709" y="1056" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<text x="959" y="1056" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="491" y="1084" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<text x="336" y="710" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="364" y="1005" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<text x="336" y="1135" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="364" y="1410" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<text x="1008" y="1104" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="442" y="1441" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<text x="426" y="704" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="1712" y="1030" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<text x="300" y="697" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="322" y="1408" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<text x="975" y="196" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">1</text>
+<text x="1044" y="169" font-size="17" font-weight="700" text-anchor="middle" fill="#c22f2f">N</text>
+<rect x="1500" y="1330" width="640" height="262" fill="#f9fafb" stroke="#cfd3da" rx="8"/>
+<text x="1522" y="1364" font-size="17" font-weight="700" fill="#101a2c">Legend</text>
+<rect x="1522" y="1382" width="70" height="28" fill="#101a2c" rx="3"/>
+<text x="1610" y="1401" font-size="15" fill="#111827">Entity (table)</text>
+<ellipse cx="1557" cy="1436" rx="35" ry="14" fill="#fff" stroke="#6b7280"/>
+<text x="1610" y="1441" font-size="15" fill="#111827">Attribute; <tspan text-decoration="underline" font-weight="700">underlined</tspan> = primary key</text>
+<polygon points="1557,1460 1592,1476 1557,1492 1522,1476" fill="#e8f1fc" stroke="#1c5cab" stroke-width="2"/>
+<text x="1610" y="1481" font-size="15" fill="#111827">Relationship; <tspan fill="#c22f2f" font-weight="700">1</tspan> and <tspan fill="#c22f2f" font-weight="700">N</tspan> give the cardinality</text>
+<text x="1522" y="1520" font-size="14" fill="#4b5563">Every relationship is one-to-many and becomes a foreign key on the N side.</text>
+<text x="1522" y="1542" font-size="14" fill="#4b5563">CATEGORIES is recursive (parent_id). AUDIT_LOG is written by triggers and</text>
+<text x="1522" y="1564" font-size="14" fill="#4b5563">has no foreign keys, so history survives the deletion of the rows it describes.</text>
+</svg>
