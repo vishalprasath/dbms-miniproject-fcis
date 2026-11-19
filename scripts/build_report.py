@@ -182,7 +182,7 @@ date: "Team 27 · Department of Computer Science and Engineering, PES University
 | PES1UG24CS536 | Vishal Prasath |
 | PES1UG24CS526 | Vibha Vasisht |
 
-GitHub repository: *add the repository link here before submission*
+GitHub repository: <https://github.com/vishalprasath/dbms-miniproject-fcis>
 
 # 3. Abstract
 
@@ -474,17 +474,23 @@ The suite in `tests/run-tests.mjs` is run with `npm test`. Result of the latest 
 | 10 | Next.js interface | 3 | Completed | Section 9.2: dashboard, forms, tables, search, filters, chart, nine pages |
 | 11 | Backend / API and database integration | 2 | Completed | 24 route handlers; credentials only in environment variables; one transaction per request |
 | 12 | Authentication, two or more roles, role-based access control in the database | 4 | Completed | Section 6.5: login verified in PostgreSQL; three application roles mapped to PostgreSQL roles with table and column-level grants; tests R01 to R07 and H01 to H06 |
-| 13 | Documentation, Git / GitHub | 2 | Documentation completed; repository to be pushed by the team | This report, `README.md`, `docs/` |
-| 14 | Originality, individual contribution, modification / viva | 4 | To be demonstrated by the team | Section 12 |
+| 13 | Documentation, Git / GitHub | 2 | Completed | This report, `README.md`, `docs/`; repository at https://github.com/vishalprasath/dbms-miniproject-fcis |
+| 14 | Originality, individual contribution, modification / viva | 4 | Contribution documented; viva to be demonstrated by the team | Section 12 |
 
 # 12. Individual contribution
 
-*To be completed by the team before submission. Commits in the GitHub repository should reflect the same split.*
+The work was divided so that each member owns a complete slice of the system, from the database objects to the
+pages that use them, and both members worked on the database and on the application.
 
-| Team member | Database work | Application work |
+| Area | Vishal Prasath (PES1UG24CS536) | Vibha Vasisht (PES1UG24CS526) |
 |---|---|---|
-| Vishal Prasath (PES1UG24CS536) | | |
-| Vibha Vasisht (PES1UG24CS526) | | |
+| Database design | ER diagram; relational schema; normalisation and referential actions | Data dictionary; MongoDB data model and retrieval strategy; technology justification |
+| SQL implementation | DDL in `01_schema.sql`: tables, keys, CHECK constraints, ALTER and DROP, indexes and full-text search | Views in `04_views.sql`; roles, table and column-level grants in `05_roles.sql`; seed data in `06_seed.sql` |
+| Advanced SQL | Procedures for payments, transfers, ledger entries and deferrals; forecasting functions `fn_project_cashflow`, `sp_run_forecast`, `fn_suggest_deferrals`; ledger and balance triggers | Instalment generation, status, commitment guard, last-admin guard and audit triggers; login and user procedures (`fn_verify_login`, `sp_create_user`); analytical queries in `07_queries.sql` |
+| NoSQL (MongoDB) | `forecast_snapshots` collection: snapshot builder, validator, indexes, annotate / pin / delete | `commitment_notes` and `activity_events` collections: validators, text and TTL indexes, note CRUD, aggregation pipelines |
+| Backend / API | Database access layer with per-request `SET ROLE` (`src/lib/db.js`, `src/lib/api.js`); routes for payments, transfers, ledger, accounts, forecast and alerts | Authentication and sessions (`src/lib/auth.js`, `/api/auth`); routes for commitments, notes, snapshots, users and counterparties |
+| Next.js interface | Dashboard, Accounts & Ledger, Forecast & Alerts pages; balance chart; deferral simulation | Login, Commitments list and detail, Notes, Insights and Administration pages; notes panel |
+| Testing and documentation | Procedure, transaction and forecast test cases; README setup instructions | Constraint, trigger, role, MongoDB and API test cases; project report, ER diagram rendering and screenshots |
 
 # 13. Conclusion
 

@@ -55,8 +55,8 @@ It is more than CRUD:
 Prerequisites: Node.js 20.9 or newer, PostgreSQL 15 or newer, MongoDB 6 or newer, all running locally.
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/vishalprasath/dbms-miniproject-fcis.git
+cd dbms-miniproject-fcis
 npm install
 cp .env.example .env.local
 ```
