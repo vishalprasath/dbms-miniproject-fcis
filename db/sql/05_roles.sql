@@ -47,6 +47,7 @@ GRANT EXECUTE ON FUNCTION fn_app_user(),
                           fn_nth_due_date(DATE, TEXT, INT),
                           fn_alert_severity(DATE, NUMERIC, NUMERIC),
                           fn_project_cashflow(INT, INT, BIGINT, DATE),
+                          fn_days_until_empty(INT, INT),
                           fn_suggest_deferrals(BIGINT)
       TO fcis_viewer;
 

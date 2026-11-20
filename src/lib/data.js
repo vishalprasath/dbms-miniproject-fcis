@@ -141,7 +141,10 @@ export async function listTransactions(c, f = {}) {
   [orNull(f.account) && Number(f.account), orNull(f.direction), q, orNull(f.from), orNull(f.to)]);
 }
 
-export const accountHealth = (c) => rows(c, 'SELECT * FROM v_account_health ORDER BY account_id');
+export const accountHealth = (c) => rows(c,
+  `SELECT h.*, fn_days_until_empty(h.account_id) AS days_until_empty
+     FROM v_account_health h
+    ORDER BY h.account_id`);
 
 // ----------------------------------------------------------------- forecast
 export async function forecastPage(c) {

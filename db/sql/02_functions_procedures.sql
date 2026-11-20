@@ -357,6 +357,26 @@ LANGUAGE sql STABLE SET search_path = fcis, public AS $$
 $$;
 
 -- ---------------------------------------------------------------------
+-- fn_days_until_empty : how many days until an account runs out of money.
+--   * "empty" = projected balance falls below -overdraft_limit, i.e. the
+--     balance plus the permitted overdraft is used up
+--   * reuses fn_project_cashflow, so the same reliability weighting applies
+--   * 0  = already empty today (or an overdue payment empties it today)
+--   * NULL = it does not run out within the horizon
+-- ---------------------------------------------------------------------
+CREATE OR REPLACE FUNCTION fn_days_until_empty(
+    p_account_id INT,
+    p_horizon    INT DEFAULT 365
+)
+RETURNS INT
+LANGUAGE sql STABLE SET search_path = fcis, public AS $$
+    SELECT MIN(p.day) - CURRENT_DATE
+      FROM fn_project_cashflow(p_account_id, p_horizon) p
+      JOIN bank_accounts a ON a.account_id = p_account_id
+     WHERE p.projected_balance < -a.overdraft_limit
+$$;
+
+-- ---------------------------------------------------------------------
 -- sp_run_forecast : project every active account, store one run row per
 -- account and one alert per continuous shortfall episode.
 -- p_batch_id is INOUT: the caller gets the batch number back.

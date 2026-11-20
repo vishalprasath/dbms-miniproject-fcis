@@ -38,6 +38,12 @@ export default async function AccountsPage({ searchParams }) {
               <dt>To pay in 30 days</dt><dd>{money(a.outflow_30d)}</dd>
               <dt>Expected in 30 days</dt><dd>{money(a.expected_inflow_30d)}</dd>
               <dt>Cover</dt><dd className={a.coverage_ratio != null && a.coverage_ratio < 1 ? 'neg' : ''}>{a.coverage_ratio == null ? '-' : `${a.coverage_ratio.toFixed(2)}×`}</dd>
+              <dt>Runs out of money</dt>
+              <dd className={a.days_until_empty != null && a.days_until_empty <= 30 ? 'neg' : ''}>
+                {a.days_until_empty == null ? 'not within a year'
+                  : a.days_until_empty === 0 ? 'today'
+                  : `in ${a.days_until_empty} day${a.days_until_empty === 1 ? '' : 's'}`}
+              </dd>
               <dt>Alerts</dt><dd>{a.live_alerts ? <Link href="/forecast">{a.live_alerts} live, first {fmtDate(a.next_shortfall, { year: false })}</Link> : 'none'}</dd>
             </dl>
             {writable ? (
