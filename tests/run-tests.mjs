@@ -342,7 +342,7 @@ async function main() {
     await expectFail(c, 'CALL sp_defer_schedule($1, $2::date - 1)', [s.schedule_id, s.due_date], 'P0001', 'must be later');
     await expectFail(c, 'CALL sp_defer_schedule($1, $2::date + 120)', [s.schedule_id, s.due_date], 'P0001', 'more than 90 days');
     await c.query('CALL sp_defer_schedule($1, $2::date + 20)', [s.schedule_id, s.due_date]);
-    const r = await one(c, 'SELECT due_date - original_due_date AS moved FROM commitment_schedule WHERE schedule_id = $1', [s.schedule_id]);
+    const r = await one(c, 'SELECT due_date - $2::date AS moved FROM commitment_schedule WHERE schedule_id = $1', [s.schedule_id, s.due_date]);
     assert(r.moved === 20, `moved ${r.moved}`);
     return 'three invalid requests refused; valid deferral moves due_date by 20 days, original date kept';
   }));
